@@ -53,16 +53,19 @@ local plugins = {
     'rmagatti/goto-preview',
   },
   'f-person/git-blame.nvim',
-   {
-       "kdheepak/lazygit.nvim",
-       dependencies = {
-            "nvim-lua/plenary.nvim",
-        },
-    },
+  {
+      "kdheepak/lazygit.nvim",
+      dependencies = {
+          "nvim-lua/plenary.nvim",
+      },
+  },
   'lewis6991/gitsigns.nvim',
   'm4xshen/autoclose.nvim',
   { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
-  'mfussenegger/nvim-lint'
+  'mfussenegger/nvim-lint',
+  'simrat39/symbols-outline.nvim',
+  'numToStr/Comment.nvim',
+  -- "Pocco81/auto-save.nvim",
 }
 
 

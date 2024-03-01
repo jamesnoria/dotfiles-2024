@@ -11,6 +11,9 @@ require("core.plugin_config.git-signs")
 require("core.plugin_config.auto-close")
 require("core.plugin_config.indent-blankline")
 require("core.plugin_config.lint")
+require("core.plugin_config.outline")
+require("core.plugin_config.comment")
+-- require("core.plugin_config.auto-save")
 
 
 -- require("core.plugin_config.bufferline")

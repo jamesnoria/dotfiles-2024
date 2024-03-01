@@ -24,8 +24,3 @@ vim.opt.shiftround = true
 vim.opt.expandtab = true
 
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
-
--- save
--- vim.keymap.set('n', '<silent><c-s>', ':<c-u>update<cr>', {noremap = true}
--- vim.keymap.set('n', '<C-s>', ':w<CR>', {noremap=true})
-vim.keymap.set('i', '<C-s>', '<Esc>:w<CR>a', {noremap=true})
